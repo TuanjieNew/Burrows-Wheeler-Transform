@@ -1,0 +1,13 @@
+##fileformat=VCFv4.3
+##source=LambdaPhageV01
+##reference=./sample/lambda_virus.fa
+##fileDate=20160519
+##INFO=<ID=DEPTH,Number=1,Type=Integer,Description="sequencing at this postition">
+##INFO=<ID=SNP,Number=0,Type=Flag,Description="classified as SNP">
+##INFO=<ID=HOMO,Number=0,Type=Flag,Description="classified as HOMO">
+##INFO=<ID=HETE,Number=0,Type=Flag,Description="classified as HETE">
+##INFO=<ID=VF,Number=1,Type=Float,Description="varant frequency">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
+gi|9626243|ref|NC_001416.1|	18018	.	G	TTTA	.	PASS	DEPTH=4;SNP;FRACTION=1.0
+gi|9626243|ref|NC_001416.1|	40311	.	T	AAAA	.	PASS	DEPTH=4;SNP;FRACTION=1.0
+gi|9626243|ref|NC_001416.1|	43666	.	A	CCCC	.	PASS	DEPTH=4;SNP;FRACTION=1.0
